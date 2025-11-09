@@ -1,0 +1,46 @@
+/* Estilo geral da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 20px;
+}
+
+/* O "App" que segura tudo */
+.App {
+  text-align: center;
+}
+
+/* Nosso quadro Kanban */
+.kanban-board {
+  display: flex; /* Isso coloca as colunas uma ao lado da outra */
+  justify-content: space-around; /* Espaçamento bonito entre elas */
+  margin-top: 20px;
+}
+
+/* Cada coluna */
+.column {
+  width: 30%;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.column h2 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Cada cartão de tarefa */
+.task-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.task-card h3 {
+  margin-top: 0;
+}
